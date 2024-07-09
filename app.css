@@ -1,5 +1,6 @@
 body{
     font-family: "Raleway", sans-serif;
+    margin: 0px;
 }
 
 .main{
@@ -23,19 +24,87 @@ div a{
 }
 
 .hero{
-    display: flex;
+    display: grid;
+    grid-template-columns: 490px 570px;
     width: 100%;
     margin-top: 50px;
     gap: 30px;
 }
 
-.hero_first{
-    max-width: 490px;
-    
-}
-
-
 .hero_second img{
     width: 100%;
     max-width: 570px;
+}
+
+.productive_text{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 600px 500px;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+.slide_one,.slide_two{
+    margin: 135px 30px;
+}
+
+.slide_one p{
+    max-width: 505px;
+}
+
+.slide_one a{
+    color: aqua;
+    border-bottom: 0.1px solid aqua;
+}
+
+.underscore{
+    background-color: white;
+    max-width: 350px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.underscore h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.underscore p{
+    max-width: 330px;
+    margin: 0px;
+}
+
+.underscore > div{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.underscore div img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+
+.profile_text{
+    margin-top: 7px;
+}
+
+.profile_text h4{
+    margin: 0px;
+}
+
+.profile_text span{
+    margin-top: -1px;
+}
+
+.slide_two img{
+    width: 100%;
+    max-width: 450px;
 }
