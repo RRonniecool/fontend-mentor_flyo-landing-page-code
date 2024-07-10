@@ -37,7 +37,7 @@ div a{
 }
 
 .productive_text{
-    background-image: url(images/bg-curve-desktop.svg);
+    background-image: url(images/bg-curve-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,3 +108,95 @@ div a{
     width: 100%;
     max-width: 450px;
 }
+
+.access_text{
+    background-color:hsl(238, 22%, 44%);
+    display: grid;
+    grid-template-columns: 445px 300px;
+    margin: 0px;
+    padding: 50px 30px;
+    gap: 150px;
+}
+
+.access_one{
+    color: white;
+}
+
+.access_one h3{
+    margin-top: 0px;
+}
+
+.access_two input{
+    padding: 5px 75px;
+}
+
+.access_two button{
+    padding: 8px 30px;
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 30px;
+}
+
+.footer_links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 20px;
+}
+
+.first_link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contact, .footer-email {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.second_link ,
+.third_link{
+    display: grid;
+    gap: 8px;
+}
+
+.second_link a,
+.third_link a{
+    color: white;
+    
+}
+
+.fourth_link{
+    display: flex;
+    gap: 10px;
+}
+
+.fourth_link a{
+    color: white;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+
