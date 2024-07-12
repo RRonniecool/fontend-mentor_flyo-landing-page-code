@@ -31,6 +31,17 @@ div a{
     gap: 30px;
 }
 
+.hero_first input{
+    padding: 5px 20px;
+}
+
+.hero_first label{
+    background-color: hsl(224, 93%, 58%);
+    padding: 5px 30px;
+    color: white;
+    margin-left: 10px;
+}
+
 .hero_second img{
     width: 100%;
     max-width: 570px;
@@ -56,8 +67,10 @@ div a{
 }
 
 .slide_one a{
-    color: aqua;
-    border-bottom: 0.1px solid aqua;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 0.1px solid hsl(170, 45%, 43%);
+    align-items: center;
+    display: flex;
 }
 
 .underscore{
